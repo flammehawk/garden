@@ -1,0 +1,9 @@
+version: 1
+schemas:
+  - id: blog
+    desc: blog namespace
+    parent: root
+    namespace: true
+    template:
+      id: template.blog
+      type: note
